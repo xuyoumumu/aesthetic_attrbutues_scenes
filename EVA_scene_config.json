@@ -1,0 +1,18 @@
+{
+    "batch_size": 2,    
+    "n_epochs": 1,
+    "loss_weights": {
+        "ContentType": 1
+ 
+    },
+    "save_path":"F:/IQA/deep-photo-aesthetics-master/checkpoint/eva_scene_model/0",
+    "train_path": "F:/IQA/deep-photo-aesthetics-master/data/EVA_content_train.csv",
+    "val_path": "F:/IQA/deep-photo-aesthetics-master/data/EVA_content_val.csv",
+    "test_path": "F:/IQA/deep-photo-aesthetics-master/data/EVA_content_val.csv",
+    "img_folder_path": "F:/IQA/deep-photo-aesthetics-master/EVA_together_resized",
+    "use_cuda": false,
+    "fc_lr": 1e-5,
+    "fine_tune_lr": 1e-6
+    
+}
+
